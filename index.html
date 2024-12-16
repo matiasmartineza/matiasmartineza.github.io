@@ -16,50 +16,29 @@
             background: url('background.jpg') no-repeat center center fixed;
             background-size: cover;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             color: #ffffff;
             text-align: center;
         }
-        .container {
-            background-color: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-            border-radius: 10px;
-            width: 90%;
-            max-width: 400px;
-        }
         .title {
-            font-size: 2.5em;
+            font-size: 3em;
             font-weight: bold;
             margin-bottom: 20px;
             color: #ffffff;
         }
         .spotify-embed {
-            margin: 20px 0;
-        }
-        .links a {
-            color: #e94560;
-            text-decoration: none;
-            display: block;
-            margin: 10px 0;
-            font-size: 1.2em;
-        }
-        .links a:hover {
-            text-decoration: underline;
+            width: 90%;
+            max-width: 400px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="title">FIRION</div>
-        <div class="spotify-embed">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4CIUTI38E5QeoJv9DeiNv9?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-        <div class="links">
-            <a href="https://instagram.com/_firion" target="_blank">INSTAGRAM</a>
-            <a href="mailto:firioncl@gmail.com">CONTACTO</a>
-        </div>
+    <div class="title">FIRION</div>
+    <div class="spotify-embed">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4CIUTI38E5QeoJv9DeiNv9?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 </body>
 </html>
